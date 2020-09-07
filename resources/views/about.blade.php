@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laravel 8 Home Page</title>
+    <title>Laravel 8 About Page</title>
 </head>
 <body>
-    <h1>Laravel 8 Home Page</h1>
-    <h1>Number is: {{ $id }}</h1>
+    <h1>Laravel 8 About Page</h1>
     <a href="{{ url('') }}">Default</a>
     <a href="{{ url('home') }}">Home</a>
     <a href="{{ url('about') }}">About</a>
